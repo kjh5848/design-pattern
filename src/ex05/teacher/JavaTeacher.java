@@ -1,7 +1,8 @@
-package ex04.teacher;
+package ex05.teacher;
+
+import ex05.Teacher;
 
 public class JavaTeacher extends Teacher {
-
 
     @Override
     public void 강의하기() {
