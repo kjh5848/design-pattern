@@ -1,13 +1,14 @@
 package ex03;
 
+import ex03.lib.OuterRabbit;
+
 public class App {
     public static void main(String[] args) {
         Doorman doorman = new Doorman();
 
-        Animal mouse = new Mouse();
-        Animal tiger = new Tiger();
+        Animal rabbit = new RabbitAdapter(new OuterRabbit());
 
-        doorman.쫒아내(tiger);
+        doorman.쫒아내(rabbit);
 
 
 
