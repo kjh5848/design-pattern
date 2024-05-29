@@ -28,7 +28,6 @@ public class App {
         Notifier no4 = new SmsNotifier();
         no4.send();
 
-
         System.out.println("---------------------선생님 코드----------------");
 
         // 1. 전체 알림 (기본알림 -> 문자알림 -> 이메일알림)
